@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  padding-right: 2.5rem; /* space for the button */
+}
+
+.button {
+  position: absolute;
+  right: var(--spacing-1);
+  color: var(--muted-foreground);
+}
+
+.button:hover {
+  color: var(--foreground);
+}
